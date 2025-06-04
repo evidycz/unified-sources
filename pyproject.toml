@@ -1,6 +1,6 @@
 [project]
 name = "unified-sources"
-version = "0.1.1"
+version = "0.1.2"
 description = "DLT sources for Unified Reporting"
 readme = "README.md"
 requires-python = ">=3.12"
