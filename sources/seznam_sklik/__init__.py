@@ -208,6 +208,7 @@ def unified_sklik_stat_source(
     return [
         accounts | groups_stats,
         accounts | banners_stats,
+        accounts | retargeting_stats,
         accounts | ads_stats,
         accounts | queries_stats,
     ]
