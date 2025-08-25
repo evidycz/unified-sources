@@ -1,6 +1,6 @@
 import dlt
 
-from sources.google_ads import unified_google_ads_source
+from google_ads import unified_google_ads_source
 
 
 def load_settings() -> None:
