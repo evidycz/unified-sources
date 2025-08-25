@@ -1,6 +1,6 @@
 [project]
 name = "unified-sources"
-version = "0.1.3"
+version = "0.2.0"
 description = "DLT sources for Unified Reporting"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -9,6 +9,9 @@ dependencies = [
 ]
 
 [dependency-groups]
+google-ads = [
+    "google-ads>=27.0.0",
+]
 seznam-sklik = [
     "sklik>=1.0.6",
 ]
